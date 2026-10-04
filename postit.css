@@ -1,0 +1,184 @@
+/* Post It CSS */
+
+/* Page */
+body {
+    font-family: "Arial Black", Arial, sans-serif;
+    background: #080808;
+    color: #ffffff;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    background: #111111;
+    padding: 28px;
+    border-radius: 16px;
+    border: 1px solid #ff1493;
+    box-shadow: 0 0 25px rgba(255, 20, 147, 0.18);
+}
+
+/* Main title */
+h1 {
+    text-align: center;
+    color: #ff1493;
+    margin-bottom: 5px;
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+/* Subtitle */
+.subtitle {
+    text-align: center;
+    color: #d0d0d0;
+    margin-bottom: 28px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Section titles */
+h2 {
+    color: #ff1493;
+    font-size: 21px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+/* Input fields */
+input,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 13px;
+    margin-bottom: 12px;
+    border: 1px solid #444444;
+    border-radius: 8px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Input focus */
+input:focus,
+textarea:focus {
+    border-color: #ff1493;
+    box-shadow: 0 0 10px rgba(255, 20, 147, 0.3);
+}
+
+/* Placeholder */
+input::placeholder,
+textarea::placeholder {
+    color: #888888;
+    font-weight: bold;
+}
+
+/* Textarea */
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff1493;
+    color: #ffffff;
+    font-family: "Arial Black", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button hover */
+button:hover {
+    background-color: #ff4db3;
+    color: #000000;
+    box-shadow: 0 0 18px rgba(255, 20, 147, 0.5);
+    transform: translateY(-1px);
+}
+
+/* Status */
+#message {
+    text-align: center;
+    font-weight: bold;
+    color: #ff4db3;
+    margin: 18px 0;
+}
+
+/* Hidden section */
+.hidden {
+    display: none;
+}
+
+/* Thread */
+.thread {
+    margin-top: 28px;
+}
+
+/* Post card */
+.post-card {
+    border: 1px solid #333333;
+    border-left: 5px solid #ff1493;
+    border-radius: 10px;
+    padding: 17px;
+    margin-bottom: 15px;
+    background-color: #161616;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+}
+
+/* Original title */
+.original-title {
+    font-weight: 900;
+    color: #ff1493;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+/* Original content */
+.original-content {
+    padding: 13px;
+    background-color: #0d0d0d;
+    border: 1px solid #333333;
+    border-radius: 7px;
+    margin-bottom: 14px;
+    color: #eeeeee;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+/* Encrypted title */
+.encrypted-title {
+    font-weight: 900;
+    color: #ff69b4;
+    margin-bottom: 7px;
+    letter-spacing: 1px;
+}
+
+/* Encrypted data */
+.encrypted-content {
+    background-color: #090909;
+    padding: 13px;
+    border: 1px solid #3a3a3a;
+    border-radius: 7px;
+    word-break: break-all;
+    font-family: "Courier New", monospace;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ff69b4;
+    line-height: 1.5;
+}
